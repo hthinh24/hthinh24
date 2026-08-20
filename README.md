@@ -31,6 +31,9 @@ Currently a final-year Software Engineer student — working toward Solution Arc
 Dual-pipeline event-driven architecture: Kafka for candle aggregation, Redis Pub/Sub for low-latency order book delivery. Full observability via OpenTelemetry → Prometheus → Grafana.
 `Go` `Kafka` `Redis` `TimescaleDB` `OpenTelemetry`
 
+**[Velet](https://github.com/hthinh24/Velet)** — A Digital Wallet & Payment Gateway backend, architected toward a Financial Super App model. Payment Service runs a saga-coordinated Reserve-Confirm flow with double-entry ledger and Transactional Outbox for consistency under concurrency. Built with Spring Boot, PostgreSQL, Redis and RabbitMQ.
+`Spring Boot` `Redis` `RabbitMQ` `PostgreSQL` `OpenTelemetry` `k6` 
+
 **[Vibe](https://github.com/Vibe-Shared-real-time-experiences)** — High-performance real-time chat platform
 Full-stack app with a production-ready Java/Spring Boot backend: WebSocket messaging, JWT auth, and event-driven architecture. Frontend demo deployed on Vercel.
 `Java` `Spring Boot` `WebSocket` `React` `TypeScript`
