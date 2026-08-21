@@ -16,9 +16,11 @@ Currently a final-year Software Engineer student — working toward Solution Arc
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" />&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="40" />&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" />&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" height="40" />&nbsp;
+  <img src="https://cdn.simpleicons.org/apachekafka/white" height="40" />&nbsp;
+  <img src="https://cdn.simpleicons.org/rabbitmq/rabbitmq-original.svg" height="40" />&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" height="40" />&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" />&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opentelemetry/opentelemetry-original.svg" height="40" />&nbsp;  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" height="40" />&nbsp;  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" />&nbsp;
 </div>
@@ -28,12 +30,13 @@ Currently a final-year Software Engineer student — working toward Solution Arc
 ## 🌟 Featured Projects
 
 **[MarketPulse](https://github.com/hthinh24/MarketPulse)** — Real-time crypto market data aggregator
-Dual-pipeline event-driven architecture: Kafka for candle aggregation, Redis Pub/Sub for low-latency order book delivery. Full observability via OpenTelemetry → Prometheus → Grafana.
-`Go` `Kafka` `Redis` `TimescaleDB` `OpenTelemetry`
+<br> Dual-pipeline event-driven architecture: Kafka for candle aggregation, Redis Pub/Sub for low-latency order book delivery. Full observability via OpenTelemetry → Prometheus → Grafana.
+<br> `Go` `Kafka` `Redis` `TimescaleDB` `OpenTelemetry`
 
-**[Velet](https://github.com/hthinh24/Velet)** — A Digital Wallet & Payment Gateway backend, architected toward a Financial Super App model. Payment Service runs a saga-coordinated Reserve-Confirm flow with double-entry ledger and Transactional Outbox for consistency under concurrency. Built with Spring Boot, PostgreSQL, Redis and RabbitMQ.
-`Spring Boot` `Redis` `RabbitMQ` `PostgreSQL` `OpenTelemetry` `k6` 
+**[Velet](https://github.com/hthinh24/Velet)** — A Digital Wallet & Payment Gateway backend
+<br> Architected toward a Financial Super App model. Payment Service runs a saga-coordinated Reserve-Confirm/Cancel flow with double-entry ledger and Transactional Outbox for consistency under concurrency. Built with Spring Boot, PostgreSQL, Redis and RabbitMQ.
+<br> `Java` `Spring Boot` `Redis` `RabbitMQ` `PostgreSQL` `OpenTelemetry` `k6` 
 
 **[Vibe](https://github.com/Vibe-Shared-real-time-experiences)** — High-performance real-time chat platform
-Full-stack app with a production-ready Java/Spring Boot backend: WebSocket messaging, JWT auth, and event-driven architecture. Frontend demo deployed on Vercel.
-`Java` `Spring Boot` `WebSocket` `React` `TypeScript`
+<br> Full-stack app with a production-ready Java/Spring Boot backend: WebSocket messaging, JWT auth, and event-driven architecture. Frontend demo deployed on Vercel.
+<br> `Java` `Spring Boot` `Redis`  `Redis Streams` `WebSocket` `React` `TypeScript`
